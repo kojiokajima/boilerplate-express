@@ -3,7 +3,6 @@ var app = express();
 
 var absolutePath = __dirname + "/views/index.html"
 console.log(absolutePath);
-console.log("Hello World");
 
 
 app.get('/', (req, res, next) => {
