@@ -5,7 +5,8 @@ console.log("Hello World");
 
 
 app.get('/', (req, res, next) => {
-  res.send("Hello Express")
+  // res.send("Hello Express")
+  res.sendFile("/views/index.html")
 })
 
 
@@ -38,4 +39,4 @@ app.get('/', (req, res, next) => {
 
 
 
- module.exports = app;
+module.exports = app;
